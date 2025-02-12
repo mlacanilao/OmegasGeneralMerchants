@@ -1,0 +1,73 @@
+<Meta>
+  <title>Omega's General Merchants</title>
+  <id>omegaplatinum.elin.omegasgeneralmerchants</id>
+  <author>OmegaPlatinum</author>
+  <loadPriority>100</loadPriority>
+  <description>
+    Adds an Item Merchant and a Food Merchant to all major cities.
+    アイテム商人と食料商人をすべての主要都市に追加します。
+
+    [h1] Mnejing (Item Merchant) [/h1]
+    [list]
+    [*] Specializes in consumables, training, and general goods.
+    [*] Sells perfumes, potions, scrolls, ammunition, and other consumables.
+    [*] Identifies items for players.
+    [*] Displays a different set of skills for training each time.
+    [*] Can heal and revive characters.
+    [*] Players can sell stolen items.
+    [*] Shop inventory scales based on the highest of the shop level, void level, or player depth level.
+    [/list]
+
+    [h1] Ovjang (Food Merchant) [/h1]
+    [list]
+    [*] Specializes in food and meal preparation.
+    [*] Offers a full selection of meals from the game.
+    [*] Unlike vanilla shopkeepers, meals have no quality limit or food trait limit, but scaling remains vanilla.
+    [*] Shop inventory scales based on the highest of the shop level, void level, or player depth level.
+    [/list]
+
+    [h1] Requirements [/h1]
+    This mod requires the [b]Custom Whatever Loader[/b] mod for core functionality. Please subscribe to the [b]Custom Whatever Loader[/b] mod to ensure compatibility:
+    [list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3370512305]https://steamcommunity.com/workshop/filedetails/?id=3370512305[/url]
+    [/list]
+
+    [h1] Compatibility [/h1]
+    This mod works with existing save files.
+
+    Supports Game Version: 0.23.83
+
+    [h1] メネジン（アイテム商人） [/h1]
+    [list]
+    [*] 消耗品、スキルトレーニング、一般的な商品を専門とします。
+    [*] 香水、ポーション、巻物、弾薬、その他の消耗品を販売します。
+    [*] プレイヤーのアイテムを鑑定できます。
+    [*] 訓練のたびに異なるスキルのセットを表示します。
+    [*] プレイヤーの治療と蘇生が可能です。
+    [*] 盗品を販売することはできませんが、プレイヤーは盗品を売却できます。
+    [*] 商人の在庫は店のレベル、すくつのレベル、またはプレイヤーの深度レベルのうち最も高いレベルに基づいてスケーリングします。
+    [/list]
+
+    [h1] アヴゼン（フード商人） [/h1]
+    [list]
+    [*] 食事と料理の専門家です。
+    [*] ゲーム内のすべての食事を提供します。
+    [*] バニラの店主とは異なり、食事には品質制限やフード特性制限がありませんが、スケーリングはバニラと同じです。
+    [*] 商人の在庫は店のレベル、すくつのレベル、またはプレイヤーの深度レベルのうち最も高いレベルに基づいてスケーリングします。
+    [/list]
+
+    [h1] 必要条件 [/h1]
+    このMODの基本機能には [b]Custom Whatever Loader[/b] が必要です。互換性を確保するために、[b]Custom Whatever Loader[/b] を購読してください：
+    [list]
+    [*][url=https://steamcommunity.com/workshop/filedetails/?id=3370512305]https://steamcommunity.com/workshop/filedetails/?id=3370512305[/url]
+    [/list]
+
+    [h1] 互換性 [/h1]
+    このMODは既存のセーブデータと互換性があります。
+
+    対応ゲームバージョン: 0.23.83
+  </description>
+  <tags>General,Balance</tags>
+  <visibility>Public</visibility>
+  <version>0.23.83</version>
+</Meta>
