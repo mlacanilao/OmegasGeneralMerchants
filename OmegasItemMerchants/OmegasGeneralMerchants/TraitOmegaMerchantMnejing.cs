@@ -102,6 +102,10 @@ class TraitOmegaMerchantMnejing : TraitMerchant
                     case TraitMaterialHammer traitMaterialHammer:
                         SourceMaterial.Row randomMaterial = MATERIAL.GetRandomMaterial(lv: ((genLv < 200) ? (genLv / 2) : (genLv % 50 * 2)) + 10, group: (EClass.rnd(a: 2) == 0) ? "metal" : "leather", tryLevelMatTier: true);
                         item.ChangeMaterial(row: randomMaterial, ignoreFixedMaterial: false);
+                        if (item.GetValue(sell: false) < 0)
+                        {
+                            item.c_priceAdd = Mathf.Abs(item.GetValue(sell: true)) * 2;
+                        }
                         break;
                     case TraitMonsterBall traitMonsterBall:
                         item.LV = genLv;
