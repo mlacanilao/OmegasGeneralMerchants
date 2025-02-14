@@ -169,5 +169,13 @@ class TraitOmegaMerchantMnejing : TraitMerchant
         {
             inventory?.AddThing(t: recipe);
         }
+        
+        // Add range mod to inventory
+        Thing mod_range = ThingGen.Create(id: "mod_ranged", lv: genLv);
+        if (mod_range != null)
+        {
+            mod_range.encLV = genLv;
+            inventory?.AddThing(t: mod_range);
+        }
     }
 }
