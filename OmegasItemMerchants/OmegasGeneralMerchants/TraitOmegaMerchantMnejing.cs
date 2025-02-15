@@ -177,5 +177,13 @@ class TraitOmegaMerchantMnejing : TraitMerchant
             mod_range.encLV = genLv;
             inventory?.AddThing(t: mod_range);
         }
+        
+        // Add map to inventory
+        Thing map = ThingGen.Create(id: "map", lv: genLv);
+        if (map != null)
+        {
+            map.SetInt(id: 25, value: genLv);
+            inventory?.AddThing(t: map);
+        }
     }
 }
