@@ -185,5 +185,18 @@ class TraitOmegaMerchantMnejing : TraitMerchant
             map.SetInt(id: 25, value: genLv);
             inventory?.AddThing(t: map);
         }
+        
+        // Add custom equipment to inventory
+        CardBlueprint.Set(_bp: new CardBlueprint
+        {
+            rarity = Rarity.Mythical
+        });
+        
+        Thing kenkonken = ThingGen.Create(id: "martial_kenkonken", lv: genLv);
+        if (kenkonken != null)
+        {
+            kenkonken.c_IDTState = 0;
+            inventory?.AddThing(t: kenkonken);
+        }
     }
 }
