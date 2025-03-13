@@ -35,6 +35,7 @@ class TraitOmegaMerchantOvjang : TraitMerchant
             inventory = ThingGen.Create(id: "chest_merchant");
             this.owner?.AddThing(t: inventory);
         }
+        var items = inventory?.things;
         
         int shopLv = this.ShopLv;
         int depthLv = EClass.player.stats.deepest;
@@ -62,6 +63,10 @@ class TraitOmegaMerchantOvjang : TraitMerchant
             
                 inventory?.AddThing(t: meal);
             }
+        }
+        
+        if (items?.Count > items?.GridSize) {
+            items?.ChangeSize(w: items.width, h: items.Count / items.width + 1);
         }
     }
     
