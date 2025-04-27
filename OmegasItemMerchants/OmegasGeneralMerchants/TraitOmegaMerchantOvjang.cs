@@ -58,7 +58,7 @@ class TraitOmegaMerchantOvjang : TraitMerchant
                 MakeDish(food: meal, lv: genLv);
                 
                 meal.elements?.SetBase(id: 757, v: 1, potential: 0);
-                meal.c_dateCooked = EClass.world.date.GetRaw(offsetHours: 0) + 1 * 48 * 60;
+                meal.c_dateCooked = EClass.world.date.GetRaw(offsetHours: 0) + 10 * 48 * 60;
                 meal.SetNum(a: meal.trait.DefaultStock);
             
                 inventory?.AddThing(t: meal);

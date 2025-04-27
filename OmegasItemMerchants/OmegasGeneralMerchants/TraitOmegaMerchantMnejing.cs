@@ -87,6 +87,12 @@ class TraitOmegaMerchantMnejing : TraitMerchant
 
                 switch (trait)
                 {
+                    case TraitDrinkMilk traitDrinkMilk:
+                    case TraitFoodTravel traitFoodTravel:
+                    case TraitGambleChest traitGambleChest:    
+                        var num = 2 + EClass.rnd(a: 4);
+                        item.SetNum(a: num);
+                        break;
                     case TraitBait traitBait:
                     case TraitAmmoArrow traitAmmoArrow:
                     case TraitAmmoBolt traitAmmoBolt:
@@ -94,10 +100,6 @@ class TraitOmegaMerchantMnejing : TraitMerchant
                     case TraitAmmoEnergy traitAmmoEnergy:
                         var ammoNum = 300 + EClass.rnd(a: 100);
                         item.SetNum(a: ammoNum);
-                        break;
-                    case TraitFoodTravel traitFoodTravel:
-                        var rationNum = 2 + EClass.rnd(a: 4);
-                        item.SetNum(a: rationNum);
                         break;
                     case TraitMaterialHammer traitMaterialHammer:
                         SourceMaterial.Row randomMaterial = MATERIAL.GetRandomMaterial(lv: ((genLv < 200) ? (genLv / 2) : (genLv % 50 * 2)) + 10, group: (EClass.rnd(a: 2) == 0) ? "metal" : "leather", tryLevelMatTier: true);

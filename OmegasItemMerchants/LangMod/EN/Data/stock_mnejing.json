@@ -75,6 +75,19 @@
     },
     {
       "Id": "chest_boss"
+    },
+    {
+      "Id": "espresso"
+    },
+    {
+      "Id": "cappuccino"
+    },
+    {
+      "Id": "1081",
+      "Num": 300
+    },
+    {
+      "Id": "chest_gamble"
     }
   ]
 }
