@@ -88,6 +88,18 @@
     },
     {
       "Id": "chest_gamble"
+    },
+    {
+      "Id": "whip_egg"
+    },
+    {
+      "Id": "whip_love"
+    },
+    {
+      "Id": "whip_interest"
+    },
+    {
+      "Id": "stethoscope"
     }
   ]
 }
