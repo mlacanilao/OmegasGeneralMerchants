@@ -35,7 +35,7 @@
     [h1] Compatibility [/h1]
     This mod works with existing save files.
 
-    Supports Game Version: 0.23.200
+    Supports Game Version: 0.23.213
 
     [h1] メネジン（アイテム商人） [/h1]
     [list]
@@ -65,9 +65,9 @@
     [h1] 互換性 [/h1]
     このMODは既存のセーブデータと互換性があります。
 
-    対応ゲームバージョン: 0.23.200
+    対応ゲームバージョン: 0.23.213
   </description>
   <tags>General,Balance</tags>
   <visibility>Public</visibility>
-  <version>0.23.200</version>
+  <version>0.23.213</version>
 </Meta>
